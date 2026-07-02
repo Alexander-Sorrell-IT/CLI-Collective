@@ -18,8 +18,8 @@ PYPROJECT = Path(__file__).resolve().parent.parent / "pyproject.toml"
 # Minimum floors the stack is expected to declare.
 EXPECTED_FLOORS = {
     "cli-wikia": "0.11.1",
-    "cli-enforcement": "0.2.0",
-    "cli-fleet": "0.1.1",
+    "cli-enforcement": "0.3.0",
+    "cli-fleet": "0.2.0",
 }
 
 
