@@ -2,7 +2,7 @@
 tools; the `cli-collective` command just shows what's present and what each does."""
 from __future__ import annotations
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 LAYERS = [
     ("cli_wikia", "wikia", "knowledge — what each AI CLI can do (hooks, MCP, config), derived from offline wikis"),
