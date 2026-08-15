@@ -14,7 +14,7 @@ keywords = ["claude", "ai", "cli", "agent-teams", "enforcement", "fleet", "wiki"
 dependencies = [
     "cli-wikia>=0.13.0",
     "cli-enforcement>=0.4.3",
-    "cli-fleet>=0.3.0",
+    "cli-fleet>=0.3.2",
 ]
 
 [project.optional-dependencies]
