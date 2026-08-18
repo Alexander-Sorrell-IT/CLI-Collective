@@ -23,4 +23,5 @@ AI-CLI reference, add `cli-enforcement` for governance, add `cli-fleet` for
 parallel agent teams.
 
 ## License
-MIT — see [LICENSE](LICENSE).
+[PolyForm Noncommercial 1.0.0](LICENSE) — free for noncommercial use.
+Commercial use requires a paid license: matrixbuilderops@proton.me
