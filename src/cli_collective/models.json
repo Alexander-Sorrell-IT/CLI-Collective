@@ -1,0 +1,12 @@
+{
+  "_comment": "cli-collective unified model registry override. When cli-collective is installed, each package (cli-wikia, cli-enforcement, cli-fleet) checks for this file FIRST and deep-merges its contents over the package's own models.json. You only need to add fields you want to change — omitted fields fall back to the package's own defaults. This lets you add a new model or change a setting in one place and have it take effect in all three packages at once. To add a new model: add it to all three 'models' blocks below with the fields relevant to each package.",
+  "wikia": {
+    "models": {}
+  },
+  "enforcement": {
+    "models": {}
+  },
+  "fleet": {
+    "models": {}
+  }
+}

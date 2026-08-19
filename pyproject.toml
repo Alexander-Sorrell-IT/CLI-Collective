@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cli-collective"
-version = "0.3.0"
+version = "0.4.0"
 description = "The Collective — one install for the whole stack: cli-wikia (knowledge) + cli-enforcement (control) + cli-fleet (parallel agent teams)."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -12,9 +12,9 @@ license = { file = "LICENSE" }
 authors = [{ name = "Alexander Sorrell", email = "codehunterextreme@gmail.com" }]
 keywords = ["claude", "ai", "cli", "agent-teams", "enforcement", "fleet", "wiki", "meta"]
 dependencies = [
-    "cli-wikia>=0.14.0",
-    "cli-enforcement>=0.4.5",
-    "cli-fleet>=0.4.0",
+    "cli-wikia>=0.16.0",
+    "cli-enforcement>=0.6.0",
+    "cli-fleet>=0.6.0",
 ]
 
 [project.optional-dependencies]
@@ -28,3 +28,4 @@ cli-collective = "cli_collective.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/cli_collective"]
+artifacts = ["src/cli_collective/models.json"]
