@@ -34,7 +34,7 @@ def _run(*argv, capture: bool = True):
     """Run a CLI command. Returns (returncode, stdout+stderr) when capture=True."""
     try:
         r = subprocess.run(list(argv), capture_output=capture, text=True, timeout=30)
-        return r.returncode, (r.stdout + r.stderr).strip() if capture else 0, ""
+        return r.returncode, (r.stdout + r.stderr).strip() if capture else ""
     except Exception as e:
         return 1, str(e)
 
